@@ -13,6 +13,7 @@ body {
     background-color: #aaff00;
     /*height: 30px;*/
     padding: 10px;
+    position: fixed;
 }
 
 ul {
