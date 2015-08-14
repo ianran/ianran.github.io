@@ -12,11 +12,13 @@ body {
 .header {
     background-color: #aaff00;
     /*height: 30px;*/
+    padding: 5px;
 }
 
 ul {
     margin-top 200px;
     border: 2px dashed red;
+    margin: auto;
 }
 
 li {
