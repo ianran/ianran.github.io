@@ -3,30 +3,37 @@ body {
 }
 
 .main {
-    margin: auto;
-    height: 400px;
-    width: 400px;
-    background-color: #bbffbb;
-    margin-top 100px;
+	margin: auto;
+	height: 400px;
+	width: 800px;
+	background-color: #bbffbb;
 }
 
 .header {
-    background-color: #ffaa00;
-    /*height: 30px;*/
-    padding: 10px;
-    position: fixed;
-    clear: both;
+	background-color: #FF7400;
+	width: 800px;
+	padding: 10px 0px 10px 0px;
+	position: fixed;
 }
 
 ul {
-    margin-top 200px;
-    margin: auto;
+	border: 1px dashed black;
 }
 
 li {
     border: 2px solid black;
-    border-radius: 154px;
+    border-radius: 10px;
     background-color: blue;
     display: inline;
-    margin: auto;
+	padding: 0px 3px 0px 3px;
+}
+
+.button {
+	color: red;
+	text-decoration: none;
+	
+}
+
+.button:hover {
+	color:green;
 }
