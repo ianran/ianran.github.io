@@ -9,6 +9,11 @@ body {
     background-color: #bbffbb;
 }
 
+div {
+    background-color: red;
+    height: 30px;
+}
+
 li {
     border: 2px solid black;
     border-radius: 15%;
