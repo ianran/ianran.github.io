@@ -2,7 +2,7 @@ body {
     background-color: #ffffee;
 }
 
-#main {
+.main {
     margin: auto;
     height: 400px;
     width: 400px;
@@ -15,7 +15,7 @@ body {
     padding: 10px;
     position: fixed;
     width: 400px;
-    margin: auto;
+    margin-left: 50%;
 }
 
 ul {
