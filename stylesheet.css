@@ -7,6 +7,7 @@ body {
     height: 400px;
     width: 400px;
     background-color: #bbffbb;
+    margin-top 100px;
 }
 
 .header {
@@ -15,7 +16,7 @@ body {
     padding: 10px;
     position: fixed;
     width: 400px;
-    margin-left: 50%;
+    margin: auto;
 }
 
 ul {
