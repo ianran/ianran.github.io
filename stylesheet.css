@@ -11,12 +11,12 @@ body {
 }
 
 .header {
-    background-color: #ffaa00;
+    background-color: #ffff00;
     /*height: 30px;*/
     padding: 10px;
     position: fixed;
     width: 400px;
-    margin: auto;
+    float: center;
 }
 
 ul {
