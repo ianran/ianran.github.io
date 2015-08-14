@@ -1,9 +1,17 @@
+html {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
 body {
-    background-color: #ffffee;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color:#FFFFFF;
 }
 
 .main {
 	margin: auto;
+	margin-top: 0px;
 	height: 400px;
 	width: 800px;
 	background-color: #bbffbb;
@@ -12,12 +20,12 @@ body {
 .header {
 	background-color: #FF7400;
 	width: 800px;
-	padding: 10px 0px 10px 0px;
+	padding: 00px 00px 0px 0px;
 	position: fixed;
 }
 
 ul {
-	border: 1px dashed black;
+	
 }
 
 li {
