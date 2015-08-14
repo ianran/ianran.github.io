@@ -2,7 +2,7 @@ body {
     background-color: #ffffee;
 }
 
-div {
+#main {
     margin: auto;
     height: 400px;
     width: 400px;
