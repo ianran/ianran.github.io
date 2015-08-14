@@ -11,11 +11,10 @@ body {
 }
 
 .header {
-    background-color: #ffff00;
+    background-color: #ffaa00;
     /*height: 30px;*/
     padding: 10px;
     position: fixed;
-    width: 400px;
     clear both;
 }
 
