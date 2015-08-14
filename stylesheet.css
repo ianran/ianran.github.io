@@ -16,7 +16,7 @@ body {
     padding: 10px;
     position: fixed;
     width: 400px;
-    float: center;
+    clear both;
 }
 
 ul {
