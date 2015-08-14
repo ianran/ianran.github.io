@@ -6,5 +6,12 @@ body {
     margin: auto;
     height: 400px;
     width: 400px;
-    background-color: #99ff99;
+    background-color: #bbffbb;
+}
+
+li {
+    border: 2px solid black;
+    border-radius: 15%;
+    background-color: blue;
+    display: inline;
 }
