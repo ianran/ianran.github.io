@@ -10,12 +10,13 @@ body {
 }
 
 .header {
-    background-color: red;
+    background-color: #aaff00;
     /*height: 30px;*/
 }
 
 ul {
-    margin-top 200px
+    margin-top 200px;
+    border: 2px dashed red;
 }
 
 li {
