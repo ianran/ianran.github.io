@@ -9,9 +9,13 @@ body {
     background-color: #bbffbb;
 }
 
-div {
+.header {
     background-color: red;
-    height: 30px;
+    /*height: 30px;*/
+}
+
+ul {
+    margin-top 200px
 }
 
 li {
@@ -19,5 +23,5 @@ li {
     border-radius: 15%;
     background-color: blue;
     display: inline;
-    margin-top: 200px;
+    margin-top: 10px;
 }
