@@ -20,12 +20,16 @@ body {
 .header {
 	background-color: #FF7400;
 	width: 800px;
-	padding: 00px 00px 0px 0px;
-	position: fixed;
+	padding: 2px 0px 2px 0px;
+	position: relative;
 }
 
 ul {
 	
+}
+
+h1 {
+	text-align: center;
 }
 
 li {
