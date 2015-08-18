@@ -20,12 +20,12 @@ body {
 .header {
 	background-color: #FF7400;
 	width: 800px;
-	padding: 2px 0px 2px 0px;
+	padding: 1px 0px 1px 0px;
 	position: relative;
 }
 
 ul {
-	
+	margin: 10px 0px 10px 0px;
 }
 
 h1 {
@@ -38,6 +38,7 @@ li {
     background-color: blue;
     display: inline;
 	padding: 0px 3px 0px 3px;
+	font-size: 1.05em;
 }
 
 .button {
