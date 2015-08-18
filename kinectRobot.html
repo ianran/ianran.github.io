@@ -21,7 +21,7 @@
             <h4><i>An Autonmous robot for finding paths automaticlly from depth image data from the Kinect.</i></h4>
             <h4 class = "workProgress">Project is a work in progress</h4>
             
-            <img id = "IMUPhoto" src = "http://ianran.github.io/thumb_IMG_2140_1024.jpg"/>
+            <img class = "SidePhoto" src = "http://ianran.github.io/thumb_IMG_2140_1024.jpg"/>
             <p class = "side">
             The Kinect robot is a large project I am currently working on. The goal of the project is to
             complete a robot that can map out and avoid obstucules so that the robot can find it's way to the
@@ -36,14 +36,14 @@
             then RGB data. These depth images are particuallry interesting, because from the location of an idividual pixel
             we can get the x and y angle the pixel is from the Kinect. Once you have 2 angles and the distance from the Kinect,
             it is easy to get a 3D point from every single pixel in the depth image.
+            Once there is a 3D point for every pixel, the software will then go through an add each point to a 2D top view map of
+            the suroundings of the robot so it can run the path-finding algorithems.
             </p>
             
             <p class = "side">
             Image of the Adafruit 9-DOF Absolute orientation IMU fusion breakout - BN0055
-            
-            
-            
             </p>
+            
         </div>
     </body>
 </html>
