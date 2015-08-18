@@ -30,6 +30,7 @@ ul {
 
 h1 {
 	text-align: center;
+	margin-bottom: 0px;
 }
 
 li {
@@ -49,4 +50,9 @@ li {
 
 .button:hover {
 	color:green;
+}
+
+h4 {
+	text-align: center;
+	margin-top: 0px;
 }
