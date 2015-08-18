@@ -55,6 +55,7 @@ li {
 h4 {
 	text-align: center;
 	margin-top: 0px;
+	margin-bottom: 0px
 }
 
 #swervePhoto {
@@ -65,4 +66,17 @@ h4 {
 p {
 	margins: 0px 60px 0px 60px;
 	padding: 0px 40px 0px 40px;
+}
+
+img {
+	margin: 7px 20px 20px 20px;
+	display: inline;
+}
+
+#IMUPhoto {
+	float: left;
+}
+
+.side {
+	
 }
