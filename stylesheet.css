@@ -12,7 +12,6 @@ body {
 .main {
 	margin: auto;
 	margin-top: 0px;
-	height: 400px;
 	width: 800px;
 	background-color: #EBE9E9;
 }
@@ -55,4 +54,13 @@ li {
 h4 {
 	text-align: center;
 	margin-top: 0px;
+}
+
+#swervePhoto {
+	width: 600px;
+	margin: auto;
+}
+
+p {
+	margins: 0px 60px 0px 60px;
 }
