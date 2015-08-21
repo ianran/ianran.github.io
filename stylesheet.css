@@ -86,3 +86,13 @@ img {
 .workProgress {
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 }
+
+h3 {
+	text-align: center;
+}
+
+h5 {
+	margin-left: 50px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
