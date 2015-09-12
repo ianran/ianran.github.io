@@ -40,8 +40,7 @@
             the suroundings of the robot so it can run the path-finding algorithems.
             </p>
             
-            <h3>Sensors</h3>
-            <h5>Drivetrain</h5>
+            <h3>Drivetrain</h3>
             
             <p>
             The chassis of the robot is built out of  <a href = "http://www.vexrobotics.com/vex?ref=hometile">VEX Robotics</a> 
@@ -53,8 +52,33 @@
            	on each side of the drivetrain, these encoders are quadature.
             </p>
             
-            <h5>Computing</h5>
+            <h3>Computing</h3>
             <img class = "SidePhoto" src = "http://ianran.github.io/image1.jpeg"/>
+            
+            <p class = "side">
+            The main computing for the Kinect-Robot is done by a 
+            <a href = "https://www.raspberrypi.org/products/raspberry-pi-2-model-b/">Raspberry Pi 2</a>
+            . This takes sensor input from the kinect 
+            over one of its USB ports. It also connects to a client from a seperate computer to recive commands from it over wifi.
+            </p>
+            
+            <p class = "side">
+            The Raspberry Pi then communicates with an 
+            <a href = "">Ardiuno</a>
+             also over USB using the UART interface to send info of where to go.
+            The Ardiuno then sends data back saying where the robot has been. The Ardiuno gets data input from the 
+            encoders and a 
+            <a href = "http://www.adafruit.com/products/2472">9-DOF orientation sensor</a>
+            to find where the robot has been. The processing of encoders and accelerometers take full advantage of
+            the real-time computing of the Ardiuno, while also running at 5V that the encoders have as their output.
+            The Ardiuno then has the PID Controllers and direct control over the motors sense they also want a 5V 
+            <a href = "https://en.wikipedia.org/wiki/Servo_control">servo PWM</a>
+            signal. I gave a link to more info about PWM because it is a common mistake to try to control servos using
+            the duty cycle of a PWM signal rather then then pure width of pulses used for servo control.
+            </p>
+            
+            <h3>Wiring</h3>
+            <img class = "SidePhoto" src = "http://ianran.github.io/IMG_2192.JPG"/>
             
             <p class = "side">
             Image of the Adafruit 9-DOF Absolute orientation IMU fusion breakout - BN0055
